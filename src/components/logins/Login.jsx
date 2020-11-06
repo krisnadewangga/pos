@@ -31,7 +31,7 @@ class Login extends Component {
 
   componentDidMount(){
     if(sessionStorage.getItem('users')){
-      console.log('User logged in')
+      // console.log('User logged in')
     }else{
       this.state({ redirect: true })
     }
